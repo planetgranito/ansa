@@ -1,0 +1,172 @@
+@media screen and (max-width: 1250px) {
+  .caja {
+    width: 33%;
+  }
+  .thumbnail {
+    width: 23%;
+  }
+
+  .projDesc {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .logo, .logoIndex {
+    width: 7vw;
+    top: 3vh;
+    left: 3vw;
+  
+  }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .caja {
+    width: 50%;
+  }
+  .thumbnail {
+    width: 35%;
+  }
+  .infoCol1 {
+    width: 38vw;
+    margin-right: 2vw;
+  }
+  .infoCol2 {
+    width: 28vw;
+  }
+  .projDesc {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .img {
+    -o-object-position: center;
+       object-position: center;
+  }
+  .cols2 {
+    -webkit-column-count: 1;
+    column-count: 1;
+    width: 100%;
+  } 
+}
+
+
+@media screen and (max-width: 769px) {
+
+  .caja {
+    width: 50%;
+  }
+  .thumbnail {
+    width: 35%;
+  }
+  .infoCol1 {
+    width: 60%;
+    margin-right: 5%;
+  }
+
+  .infoCol2 {
+    width: 30%;
+    left: 0;
+  }
+
+  .cols2 {
+    -webkit-column-count: 1;
+            column-count: 1;
+            width: 100%;
+  }
+
+  .projDesc, {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .img {
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .slide-content{
+    width: 100%;
+  }
+
+    .logoIndex, .logo {
+    z-index: 5;
+    width: 50px;
+    top: 3vh;
+    left: 1vh;
+  }
+
+  .contenido,
+  .contenidoIndice {
+    margin: 10vh auto;
+    width: 80%;
+  }
+
+  .caja {
+    width: 100%;
+    height: 420px;
+  }
+
+  .thumbnail {
+    width: 80%;
+    height: 420px;
+  }
+
+  .infoCol1,
+  .infoCol2 {
+    width: 100%;
+    margin-right: 0;
+    left: 0;
+    padding: 0;
+  }
+
+  .infoCol2 ul {
+    padding: 0;
+  }
+
+  .cerrar {
+    font-size: 20px;
+    line-height: 4vh;
+    height: 4vh;
+    width: 4vh;
+  }
+
+  .cont {
+    -webkit-column-count: 1;
+            column-count: 1;
+    width: 80%;
+  }
+  
+.cols2 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  width: 100%;
+}
+  
+ .projDesc,
+  .imgDiv
+{
+    margin-bottom: 150px;
+  }
+
+  .projDesc {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .img {
+    -o-object-position: center;
+       object-position: center;
+  }
+
+  .progress-container {
+    left: 10%;
+    width: 80%;
+  }
+}
+
